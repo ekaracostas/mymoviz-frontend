@@ -36,7 +36,7 @@ function Home() {
 
   // Movies list
   useEffect(() => {
-    fetch(`https://mymoviz-backend-sigma-ten.vercel.app/movies`)
+    fetch(`https://mymoviz-backend-fawn.vercel.app/movies`)
     .then(response => response.json())
     .then(data => {
       const newTab = [];
